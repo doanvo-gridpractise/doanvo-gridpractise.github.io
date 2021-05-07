@@ -45,7 +45,11 @@ span{
   font-family: cambria;
   font-style: italic;
   color: #071746;}
-
+  
+.pic img {
+max-height: 100%;
+max-width: 100%;
+}
 
 h1{
 text-align: center;
@@ -55,7 +59,45 @@ font-size: 80px;
   letter-spacing: 20px;
 }
 
+#next{
+ float: right;
+ font-style: italic;
+ color: green;
+ font-weight: bold;
+ font-size: 25px;
+}
+
+#back{
+  float: left;
+  font-style: italic;
+  color: green;
+  font-weight: bold;
+  font-size: 25px;
+}
 
 footer p{
   text-align: center;
+}
+/* For mobile phone */
+@media (max-width: 700px) { 
+  
+#next{
+ text-align: center;
+ font-style: italic;
+ color: green;
+ font-weight: bold;
+ font-size: 12px;
+}
+
+#back{
+  text-align: center;
+  font-style: italic;
+  color: green;
+  font-weight: bold;
+  font-size: 12px;
+} 
+  .pic img {
+    max-height: 100%;
+    max-width: 100%;
+    }
 }
