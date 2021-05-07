@@ -1,0 +1,87 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  background-color: rgb(206, 208, 232);
+  padding: 0px;
+  grid-gap: 0px;
+}
+
+body{
+  background-color: white;
+}
+
+ .header {
+ background: url("background2.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;  
+ color: #666600	;
+ padding: 15px;
+ font-family: cursive;
+ text-align: center;
+ text-shadow: 2px -2px;
+  }
+   
+
+.series{
+  color: white;
+  font-family:cursive;
+  letter-spacing: 10px;
+  text-align: center;
+  font-style:oblique;
+  font-size: 50px;
+  text-shadow: -2px 2px white;
+}
+.text {
+color: green;
+font-size: 60px;
+font-family: fantasy;
+text-align: center;
+padding-top: 150px;
+font-weight: bold;}
+
+span{
+  font-size: 30px;
+  font-family: cambria;
+  font-style: italic;
+  color: #071746;}
+  
+.pic img {
+max-height: 100%;
+max-width: 100%;
+}
+
+h1{
+text-align: center;
+font-family: fantasy;
+color: rgb(143, 24, 70);
+font-size: 80px;
+  letter-spacing: 20px;
+}
+
+#next{
+ float: right;
+ font-style: italic;
+ color: green;
+ font-weight: bold;
+ font-size: 25px;
+}
+
+#back{
+  float: left;
+  font-style: italic;
+  color: green;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+footer p{
+  text-align: center;
+}
+/* For mobile phone */
+@media (max-width: 700px) { 
+
+  .pic img {
+    max-height: 100%;
+    max-width: 100%;
+    }
